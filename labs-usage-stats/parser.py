@@ -8,15 +8,22 @@
 # Output: pipe separated data 
 #
 #
+# Modification Log:
+# Rev.  Author     Date       Description
+# 0.01  Lovepreet  2013-08-05 Initial version
+# 0.02  Chandan    2013-08-05 Updated mapping
+#
+#
+
 
 import re, sys
 
-### Mapping for courses ###
+### Mapping for lab IDs ###
 cMapping = {}
 cMapping["cse01"] = "Data Structures"
 cMapping["cse02"] = "Computer Programming"
 cMapping["cse04"] = "Problem Solving"
-cMapping["cse05"] = "PoPL"
+cMapping["cse05"] = "Principles of Programming Languages"
 cMapping["cse07"] = "Databases"
 cMapping["cse08"] = "Software Engineering"
 cMapping["cse09"] = "Linux"
